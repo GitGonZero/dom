@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+#encabezado {
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #66CC33;
+}
+.letrasTabla {
+	border: thin solid #66CC33;
+}
+
+#respuestas {
+	background-color: #CCC;
+	text-align: left;
+	border: thin solid #6C3;
+	bottom: 200px;
+	position: relative;
+	color: #000;
+}
+#instruccionesFormulario {
+	text-align: right;
+}
+
+
+.p {
+	background-color: #DDFFE6;
+}
+#pie {
+	color: #FFF;
+	background-color: #666;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #6C3;
+	position: relative;
+	bottom: 200px;
+}
+#ano {
+	text-align: right;
+	position: relative;
+	left: 80%;
+	color: #6C3;
+}
+#curso {
+	color: #6C3;
+}
+
+
+#pulsado {
+	background-color: #D3FFA8;
+}
+#cuerpo{
+	background-color: #FFFFFF;
+	color: #000000;
+	
+}
+#resultado {
+	color: #FFF;
+	background-color: #666;
+	border: medium solid #6C3;
+	position: relative;
+	bottom: 600px;
+	height: 200px;
+	width: 200px;
+	left: 80%;
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+}
+.header {
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #6C3;
+	height: 20%;
+}

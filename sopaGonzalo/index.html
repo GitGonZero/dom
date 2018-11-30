@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Ejercicio SopaDeLetras -->
+<!-- Autor: GonzaloMartinezSias -->
+<html lang="es">
+	<head>
+        <meta charset="UTF-8">
+        <title>Sopa de Letras</title>	
+	    
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header class="header"> <div id="encabezado"><h1>SOPA DE LETRAS</h1></div> 
+        <p>Tarea DWEC04</p>
+        </header>
+        <main id="cuerpo">
+        <br>
+            <aside>
+                Esta es una sopa de letras en la que debes de encontrar 8 series de television emitidas en los años 80.
+            
+            </aside>
+            <br>
+          	<br>
+            <section id="seccion">		
+               
+            <script src="estaticoV1.js"></script>
+   	<br>
+    
+   <div id="resultado"><p id="res">Aquí verás las soluciones si aciertas:</p>
+   </div>
+ <div id="respuestas" > 
+    <label for="SolucionUno" id="nombre2">Posibles soluciones</label>   
+    <input type="text" name="solucionUno" id="SolucionUno"  placeholder="Introduce una serie de los 80" onKeyPress="presiona()">
+	<input type="button" name="comprobar" id="enviarDatos" value="Comprobar" onclick="comparar()">
+ </div>
+ 
+  
+            </section>
+        
+        </main>
+        <footer id="pie"><span id="curso"> DWEC.</span> Gonzalo Martinez Sias.<span id="ano">DAW2-2015</span></footer>
+	</body>
+</html>
