@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario TareaDWEC03</title>
+<style type="text/css">
+
+</style>
+<link href="estilos.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+</style>
+</head>
+
+<body>
+<p>Formulario De Datos Los datos marcados con un * son obligatorios</p>
+<div id="datosPersonales">
+  <p>DATOS PERSONALES  </p>
+  <form id="form1" name="form1" method="post" action="">
+    <label for="nombre2">Nombre (*)</label>
+    <input type="text" name="nombre" id="nombre2" />
+    <label for="primerApellido">Primer Apellido (*)</label>
+    <input type="text" name="primerApellido2" id="primerApellido" />
+    <label for="segundoApellido">Segundo Apellido (*)</label>
+    <input type="text" name="segundoApellido" id="segundoApellido" />
+  </form>
+  <form id="form3" name="form3" method="post" action="">
+    Sexo(*):
+    <input type="radio" name="radio" id="hombre" value="hombre" />
+    <label for="hombre">Hombre </label>
+    <input type="radio" name="radio" id="mujer" value="mujer" />
+    <label for="mujer">Mujer</label>
+  </form>
+  <form id="form2" name="form2" method="post" action="">
+    Grupo de edad(*):			
+    <input type="radio" name="radio" id="menorDe20" value="menorDe20" />
+    <label for="menorDe20">Menor de 20</label>
+    <input type="radio" name="radio" id="veinteOtreintaYCinco" value="20-35" />
+    <label for="20-35">20-35</label>
+    <input type="radio" name="radio" id="treintaSeisCincuenta" value="36-50" />
+    <label for="36-50">36-50</label>
+    <input type="radio" name="radio" id="mayorDe50" value="mayorDe50" />
+    <label for="mayorDe50">Mayor de 50</label>
+  </form>
+  <form id="form4" name="form4" method="post" action="">
+    <label for="paisDeNacimiento">Pais de Nacimiento(*)</label>
+    <select name="paisDeNacimiento" id="paisDeNacimiento">
+      <option>      </option>
+	  <option>España</option>
+      <option>Portugal</option>
+      <option>Italia</option>
+      <option>Francia</option>
+      <option>Reino Unido</option>
+      <option>Alemania</option>
+      <option>Suiza</option>
+      <option>Italia</option>
+      <option>Dinamarca</option>
+      <option>Noruega</option>
+      <option>Finlandia</option>
+      <option>Paises Bajos</option>
+      <option>Belgica</option>
+    </select>
+  </form>
+  <p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<div id="datosBancarios">
+  <p>DATOS BANCARIOS</p>
+  <form id="form5" name="form5" method="post" action="">
+    <label for="iban">IBAN(*)</label>
+    <input type="text" name="iban" id="iban" />
+  </form>
+  <form id="form6" name="form6" method="post" action="">
+    <p>Tipo de Cuenta(*):
+      <input type="radio" name="radio" id="deAhorro" value="deAhorro" />
+      <label for="deAhorro">De ahorro</label>
+      <input type="radio" name="radio" id="corriente" value="corriente" />
+      <label for="corriente">Corriente</label>
+    </p>
+  </form>
+  <form id="form7" name="form7" method="post" action="">
+    Tipo de sucursal(*):
+    <input type="radio" name="radio" id="banco" value="banco" />
+    <label for="banco">Banco</label>
+    <input type="radio" name="radio" id="caja" value="caja" />
+    <label for="caja">Caja</label>
+  </form>
+  <form id="form8" name="form8" method="post" action="">
+    <p>
+      <label>
+        Servicios Contratados(*)
+      </label>
+    :</p><div align="center"><table width="507">
+      <tr>
+        <td width="244"><input type="checkbox" name="serviciosContratados_" value="casilla de verificación " id="serviciosContratados_4" />
+        
+Nómina Domiciliada</td>
+        <td width="251"><input type="checkbox" name="serviciosContratados_2" value="casilla de verificación " id="serviciosContratados_5" />
+Préstamo hipotecario</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="serviciosContratados" value="casilla de verificación " id="serviciosContratados_2" />
+Préstamo personal</td>
+        <td><input type="checkbox" name="serviciosContratados_3" value="casilla de verificación " id="serviciosContratados_" />
+Caja de seguridad</td>
+      </tr>
+    </table>
+</div></form>
+  
+</div>
+<p>&nbsp;</p>
+<div id="otrosDatosdeInteres">
+    <p>OTROS DATOS DE INTERÉS</p>
+    <p>¿Está usted interesado en alguno de estos temas? Otros temas:</p>
+  
+<form id="form9" name="form9" method="post" action="">
+  <table width="625">
+    <tr>
+      <td width="104"><label>
+        <input type="checkbox" name="otrosTemas" value="casilla de verificación " id="otrosTemas_0" />
+        Libros</label></td>
+      <td width="87"><input type="checkbox" name="otrosTemas_3" value="casilla de verificación " id="otrosTemas_1" />
+Viajes</td>
+      <td width="114"><input type="checkbox" name="otrosTemas_6" value="casilla de verificación " id="otrosTemas_2" />
+Informática</td>
+      <td width="300" rowspan="3"><label for="otrosTemasDeInteres"></label>
+      <textarea name="otrosTemasDeInteres2" id="otrosTemasDeInteres" cols="45" rows="5">Escriba aquí otros temas de su interés</textarea></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" name="otrosTemas_" value="casilla de verificación " id="otrosTemas_3" />
+Cursos</td>
+      <td><input type="checkbox" name="otrosTemas_4" value="casilla de verificación " id="otrosTemas_4" />
+Seguros</td>
+      <td><input type="checkbox" name="otrosTemas_7" value="casilla de verificación " id="otrosTemas_5" />
+      Música</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" name="otrosTemas_2" value="casilla de verificación " id="otrosTemas_6" />
+Apuestas</td>
+      <td><input type="checkbox" name="otrosTemas_5" value="casilla de verificación " id="otrosTemas_7" />
+Idiomas</td>
+      <td><input type="checkbox" name="otrosTemas_8" value="casilla de verificación " id="otrosTemas_8" />
+      Empleo</td>
+    </tr>
+  </table>
+  <label for="otrosTemasDeInteres"></label>
+</form>
+</div>
+<p>&nbsp;</p>
+<form id="form10" name="form10" method="post" action="">
+  
+  <input type="submit" name="enviarDatos" id="enviarDatos" value="Enviar Datos" onclick="crearVentana()" />
+  <input type="submit" name="limpiarDatos" id="limpiarDatos" value="Limpiar" />
+</form>
+<p>&nbsp;</p>
+<script src="tarea03.js"></script>
+</body>
+</html>

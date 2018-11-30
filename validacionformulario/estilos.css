@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+	background-color: #FCF;
+	color: #000000;
+}
+#datosPersonales {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#datosBancarios {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#otrosDatosdeInteres {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
